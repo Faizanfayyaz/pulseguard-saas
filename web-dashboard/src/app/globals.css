@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 243, 244, 246;
+  --background-start-rgb: 9, 13, 22;
+  --background-end-rgb: 15, 23, 42;
+}
+
+body {
+  color: rgb(var(--foreground-rgb));
+  background: radial-gradient(circle at top right, rgba(99, 102, 241, 0.08), transparent 40%),
+              radial-gradient(circle at bottom left, rgba(16, 185, 129, 0.05), transparent 40%),
+              #090d16;
+  min-height: 100vh;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
